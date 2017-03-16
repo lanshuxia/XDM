@@ -1,0 +1,54 @@
+body,p,ul,ol,dl,dt,dd,li,h1,h2,h3,h4,h5,h6,input,td,tr,th,table{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+@font-face {
+    font-family: 'FE1';
+    src: url('../font/NotoSansHans-Bold.eot') format('eot');/*IE9*/
+    src: url('../font/NotoSansHans-Bold.otf') format('otf');
+    src: url('../font/NotoSansHans-Bold.eot') format('embedded-opentype');/*IE6-IE8*/
+    src: url('../font/NotoSansHans-Bold.ttf') format('truetype');/*chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    src: url('../font/NotoSansHans-Bold.woff') format('woff');/*chrome, firefox*/
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FE3';
+    src: url('../font/NotoSansHans-Black.eot') format('eot');/*IE9*/
+    src: url('../font/NotoSansHans-Black.otf') format('otf');
+    src: url('../font/NotoSansHans-Black.eot') format('embedded-opentype');/*IE6-IE8*/
+    src: url('../font/NotoSansHans-Black.ttf') format('truetype');/*chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    src: url('../font/NotoSansHans-Black.woff') format('woff');/*chrome, firefox*/
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FE5';
+    src: url('../font/NOTOSANSHANS-THIN_1.eot') format('eot');/*IE9*/
+    src: url('../font/NOTOSANSHANS-THIN_1.OTF') format('otf');
+    src: url('../font/NOTOSANSHANS-THIN_1.eot') format('embedded-opentype');/*IE6-IE8*/
+    src: url('../font/NOTOSANSHANS-THIN_1.ttf') format('truetype');/*chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    src: url('../font/NOTOSANSHANS-THIN_1.woff') format('woff');/*chrome, firefox*/
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FE5';
+    src: url('../font/NotoSansHans-Medium.eot') format('eot');/*IE9*/
+    src: url('../font/NotoSansHans-Medium.otf') format('otf');
+    src: url('../font/NotoSansHans-Medium.eot') format('embedded-opentype');/*IE6-IE8*/
+    src: url('../font/NotoSansHans-Medium.ttf') format('truetype');/*chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    src: url('../font/NotoSansHans-Medium.woff') format('woff');/*chrome, firefox*/
+    font-weight: normal;
+    font-style: normal;
+}
+a:link{
+    text-decoration:none;
+}
+img{
+    border:none;
+}
+*{
+    box-sizing: border-box;
+}
