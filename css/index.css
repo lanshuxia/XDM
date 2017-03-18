@@ -554,10 +554,4 @@ html,body{
         line-height: 1.85;
     }
     /*art-开始*/
-    #zsimg{
-        position:absolute;
-        top:50px;
-        left:60px;
-        z-index: 999;
-    }
 }
