@@ -54,27 +54,27 @@ html,body{
     display:block;
     width:55px;
     transition:all .5s;
-    -webkit-transition:all .5s;
-    -moz-transition:all .5s;
-    -o-transition:all .5s;
+    -webkit-transition:all .2s;
+    -moz-transition:all .2s;
+    -o-transition:all .2s;
 }
 .btn-centre{
     display:block;
     width:55px;
     margin:8px auto 0;
     transition:all .5s;
-    -webkit-transition:all .5s;
-    -moz-transition:all .5s;
-    -o-transition:all .5s;
+    -webkit-transition:all .2s;
+    -moz-transition:all .2s;
+    -o-transition:all .2s;
 }
 .btn-bottom{
     display:block;
     width:55px;
     margin:8px auto 0;
     transition:all .5s;
-    -webkit-transition:all .5s;
-    -moz-transition:all .5s;
-    -o-transition:all .5s;
+    -webkit-transition:all .2s;
+    -moz-transition:all .2s;
+    -o-transition:all .2s;
 }
 .active .left-btn{
     display:inline-block;
@@ -144,7 +144,7 @@ html,body{
     bottom:0;
     color:#f9600a;
     text-align: center;
-    transition: all .5s;
+    transition: all .2s;
 }
 .jia>div{
     font-size:45px;
