@@ -1,4 +1,5 @@
 @import "init.css";
+
 body,html{
     width:100%;
     height:100%;
@@ -118,7 +119,9 @@ video {
     height:100%;
 }
 /*右侧-结束*/
-
+.drop-con{
+    display: none;
+}
 /*video-遮罩开始*/
 /*video-遮罩结束*/
 @media (max-width:1440px){
@@ -166,17 +169,6 @@ video {
     .video-header{
         margin-top:-6px;
         width:3rem;
-    }
-    .video-header>li{
-        width:100%;
-        display: block;
-        font-size:0.36rem;
-        line-height:1.725;
-    }
-    .video-header>li:nth-child(3){
-        font-size:0.3rem;
-    }
-    .video-header>li:nth-child(2),.video-header>li:nth-child(4){
         display: none;
     }
     .video-img{
@@ -189,5 +181,86 @@ video {
         width:0.8rem;
         height:0.8rem;
     }
+    /*下拉菜单-开始*/
+    .drop-con{
+        width:3.5rem;
+        height:0.5rem;
+        display: block;
+    }
+    .hhsj-jtxx{
+        width:0.2rem;
+        margin-top:0.25rem;
+        margin-top:0.15rem\0;
+        float: left;
+    }
+    .active.hhsj-jtxx{
+        transform:rotate(180deg);
+        -webkit-transform:rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -o-transform:rotate(180deg) ;
+    }
+    .drop-down a{
+        display: block;
+        text-decoration: none;
+        width:3rem;
+        float: left;
+        height:0.5rem;
+        text-align:left;
+        line-height:0.5rem;
+        color:#fff;
+        font-size:0.36rem;
+        font-family: FE1, sans-serif;
+    }
+    .drop-down-content{
+        width:2rem;
+        display: none;
+        position:relative;
+    }
+    .drop-down-content-con{
+        display: none;
+        margin-left:1.7rem;
+    }
+    .drop-down-content>li>a{
+        width:1.3rem;
+        float: left;
+        font-size:0.3rem;
+    }
+    .hhsj-jtxy{
+        width:0.15rem;
+        float: left;
+        margin-top:0.18rem;
+        margin-top:0.1rem\0;
+    }
+    .active.hhsj-jtxy{
+        transform:rotate(180deg);
+        -webkit-transform:rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -o-transform:rotate(180deg) ;
+    }
+    .drop-down-content-con>li>a{
+        width:2rem;
+        font-size:0.3rem;
+    }
+    .hhsj-drop-down{
+        display: none;
+        position:absolute;
+        left:1.7rem;
+        top:0.5rem;
+        color:red;
+    }
+    .hhsj-drop-down>li.hhsjdd-hot>a,.drop-down-content-con>li.hhsjdd-hot>a{
+        color:#fff;
+        opacity: 1;
+    }
+    .hhsj-drop-down>li>a,.drop-down-content-con>li>a{
+        color:#fff;
+        opacity: 0.7;
+    }
+
+    .hhsj-drop-down>li>a{
+        width:2rem;
+        font-size:0.3rem;
+    }
+    /*下拉菜单-结束*/
 
 }

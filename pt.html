@@ -59,6 +59,7 @@
                 <div class="hhsj-img">
                     <a href="index.html"><img src="img/logo.png" alt=""></a>
                 </div>
+                <!--下拉菜单-->
                 <ul class="drop-con">
                     <li class="drop-down">
                         <a href="#">我就喜欢花花世界</a>
@@ -67,15 +68,22 @@
                             <li>
                                 <a href="#">拼贴装置</a>
                                 <img src="img/zjt.png" alt="" class="hhsj-jtxy">
-                                <ul class="drop-down-content-con">
+                                <ul class="hhsj-drop-down">
                                     <li class="hhsjdd-hot"><a href="pt.html">150X150mm</a></li>
                                     <li><a href="#">81X82mm</a></li>
                                     <li><a href="#">58.5X59.5mm</a></li>
                                 </ul>
                             </li>
                         </ul>
+                        <ul class="drop-down-content">
+                            <li><a href="video.html">影像装置</a></li>
+                        </ul>
+                        <ul class="drop-down-content">
+                            <li><a href="jilupian.html">纪录片</a></li>
+                        </ul>
                     </li>
                 </ul>
+                <!--下拉菜单-->
             </div>
 
             <!--右侧-上-结束-->
@@ -280,11 +288,12 @@
             pList.removeClass("ptzh-lhot").eq(index).addClass("ptzh-lhot");
             pCon.css("display","none").eq(index).css("display","block");
         })
-        var dCon = $(".drop-down-content-con>li");
+        var dCon = $(".hhsj-drop-down>li");
         var zZC = $(".ptzh-right>li");
         dCon.click(function(){
             var index = $(this).index();
             zZC.css("display","none").eq(index).css("display","block");
+            dCon.removeClass("hhsjdd-hot").eq(index).addClass("hhsjdd-hot")
         })
         /*选项卡*/
         /*下拉菜单*/
@@ -293,12 +302,8 @@
             $(".hhsj-jtxx").toggleClass("active")
         })
         $(".drop-down-content>li>a").click(function () {
-            $(".drop-down-content-con").toggle()
+            $(".hhsj-drop-down").toggle()
             $(".hhsj-jtxy").toggleClass("active")
-        })
-        $(".drop-down-content-con>li").click(function(){
-            var index = $(this).index();
-            $(".drop-down-content-con>li").removeClass("hhsjdd-hot").eq(index).addClass("hhsjdd-hot")
         })
         /*下拉菜单*/
         /*滚动条*/

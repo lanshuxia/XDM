@@ -60,6 +60,7 @@
                 <div class="hhsj-img">
                     <a href="index.html"><img src="img/logo.png" alt=""></a>
                 </div>
+                <!--下拉菜单-->
                 <ul class="drop-con">
                     <li class="drop-down">
                         <a href="#">我就喜欢花花世界</a>
@@ -83,6 +84,7 @@
                         </ul>
                     </li>
                 </ul>
+                <!--下拉菜单-->
             </div>
             <!--右侧-上-结束-->
             <!--右侧-下-开始-->
@@ -116,6 +118,7 @@
 </body>
 <script>
     $(function () {
+        /*下拉菜单*/
         $(".drop-down>a").click(function () {
             $(".drop-down-content").toggle()
             $(".hhsj-jtxx").toggleClass("active")
@@ -124,7 +127,7 @@
             $(".hhsj-drop-down").toggle()
             $(".hhsj-jtxy").toggleClass("active")
         })
-
+        /*下拉菜单*/
         /*字体大小*/
         var windowW = $(window).width();
         var flag = true;

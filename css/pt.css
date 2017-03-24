@@ -327,12 +327,6 @@ body,html{
     left:0;
     margin:0 auto;
 }
-.ptaaaa{
-    width:100%;
-    height:100%;
-    border:1px solid green;
-    overflow-y: scroll;
-}
 @media screen and (max-width: 1440px){
     /*花花世界-开始*/
     .hhsj-box{
@@ -710,14 +704,11 @@ body,html{
     .hhsj-header{
         display: none;
     }
-    .drop-con{
-        display: block;
-    }
     /*下拉菜单-开始*/
-
     .drop-con{
         width:3.5rem;
         height:0.5rem;
+        display: block;
     }
     .hhsj-jtxx{
         width:0.2rem;

@@ -50,12 +50,37 @@
                     <ul class="video-header">
                         <li><a href="hhsj.html">我就喜欢花花世界</a></li>
                         <li><a href="pt.html">拼贴装置</a></li>
-                        <li><a href="video.html">影像装置</a></li>
+                        <li><a href="#">影像装置</a></li>
                         <li  class="hot"><a href="jilupian.html">纪录片</a></li>
                     </ul>
                     <div class="video-img">
                         <a href="index.html"><img src="img/video.png" alt=""></a>
                     </div>
+                    <!--下拉菜单-->
+                    <ul class="drop-con">
+                        <li class="drop-down">
+                            <a href="#">我就喜欢花花世界</a>
+                            <img src="img/v-down.png" alt="" class="hhsj-jtxx">
+                            <ul class="drop-down-content">
+                                <li>
+                                    <a href="#">拼贴装置</a>
+                                    <img src="img/y-zjt.png" alt="" class="hhsj-jtxy">
+                                    <ul class="hhsj-drop-down">
+                                        <li class="hhsjdd-hot"><a href="pt.html">150X150mm</a></li>
+                                        <li><a href="#">81X82mm</a></li>
+                                        <li><a href="#">58.5X59.5mm</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="drop-down-content">
+                                <li><a href="video.html">影像装置</a></li>
+                            </ul>
+                            <ul class="drop-down-content">
+                                <li><a href="jilupian.html">纪录片</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!--下拉菜单-->
                 </div>
                 <!--右侧-上-结束-->
             </div>
@@ -89,19 +114,6 @@
         $(this).css("display","none")
         videoCon.style.display = 'none';
     })
-    /*var myVideo = document.getElementById("myVideo");
-    $(".video").click(function(){
-        myVideo.pause();
-        $(".video-con").show();
-    })
-    $(".video").hover(function(){
-        myVideo.pause();
-        $(".video-con").show();
-    },function(){
-        myVideo.play();
-        $(".video-con").hide();
-    });*/
-
     var myVideo = document.getElementById("myVideo");
     var flag = true;
     $("video").click(function(){
@@ -113,6 +125,19 @@
             myVideo.play();
         }
         flag = !flag;
+    })
+    $(function(){
+        /*下拉菜单*/
+        $(".drop-down>a").click(function () {
+            $(".drop-down-content").toggle()
+            $(".hhsj-jtxx").toggleClass("active")
+        })
+        $(".drop-down-content>li>a").click(function () {
+            $(".hhsj-drop-down").toggle()
+            $(".hhsj-jtxy").toggleClass("active")
+        })
+        /*下拉菜单*/
+
     })
 
 </script>
