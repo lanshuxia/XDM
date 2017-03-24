@@ -183,14 +183,14 @@ video {
     }
     /*下拉菜单-开始*/
     .drop-con{
-        width:3.5rem;
+        width:3.7rem;
         height:0.5rem;
         display: block;
     }
     .hhsj-jtxx{
         width:0.2rem;
-        margin-top:0.25rem;
-        margin-top:0.15rem\0;
+        margin-top:0.32rem;
+        margin-top:0.22rem\0;
         float: left;
     }
     .active.hhsj-jtxx{
@@ -202,13 +202,13 @@ video {
     .drop-down a{
         display: block;
         text-decoration: none;
-        width:3rem;
+        width:3.3rem;
         float: left;
-        height:0.5rem;
+        height:0.6rem;
         text-align:left;
-        line-height:0.5rem;
+        line-height:0.6rem;
         color:#fff;
-        font-size:0.36rem;
+        font-size:0.4rem;
         font-family: FE1, sans-serif;
     }
     .drop-down-content{
@@ -221,14 +221,14 @@ video {
         margin-left:1.7rem;
     }
     .drop-down-content>li>a{
-        width:1.3rem;
+        width:1.5rem;
         float: left;
-        font-size:0.3rem;
+        font-size:0.34rem;
     }
     .hhsj-jtxy{
         width:0.15rem;
         float: left;
-        margin-top:0.18rem;
+        margin-top:0.23rem;
         margin-top:0.1rem\0;
     }
     .active.hhsj-jtxy{
@@ -244,9 +244,8 @@ video {
     .hhsj-drop-down{
         display: none;
         position:absolute;
-        left:1.7rem;
-        top:0.5rem;
-        color:red;
+        left:1.75rem;
+        top:0.6rem;
     }
     .hhsj-drop-down>li.hhsjdd-hot>a,.drop-down-content-con>li.hhsjdd-hot>a{
         color:#fff;
