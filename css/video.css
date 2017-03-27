@@ -110,7 +110,7 @@ video {
     left:0;
     right:0;
     cursor: pointer;
-    z-index: 999;
+    z-index: 9;
     margin: auto auto;
 }
 .btn>img{
