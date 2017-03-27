@@ -25,6 +25,63 @@
         .mui-active {
             display: block !important;
         }
+        .zl-con-header{
+            height:auto;
+            overflow: hidden;
+            font-size: 60px;
+            margin-top: -20px;
+            margin-bottom: 95px;
+        }
+        .zl-con-header>li>a{
+            display: block;
+            font-size: 60px;
+            margin-top: 0;
+            margin-bottom:0;
+            cursor: pointer;
+        }
+        .zl-con-header li{
+            float: left;
+        }
+        .zl-con-header li:nth-child(2){
+            line-height: 1.6;
+            font-weight: 700;
+        }
+        .zl-con-header li:nth-child(3){
+            opacity: 0.7;
+        }
+        @media screen and (max-width: 1440px) {
+            .zl-con-header{
+                height:auto;
+                overflow: hidden;
+                font-size: 36px;
+                margin-top: -10px;
+                margin-top: -0\0;
+                margin-bottom: 60px;
+                margin-bottom: 50px\0;
+            }
+            .zl-con-header>li>a{
+                display: block;
+                font-size: 36px;
+                margin-top: 0;
+                margin-bottom:0;
+                cursor: pointer;
+            }
+        }
+        @media screen and (max-width: 768px) {
+            .zl-con-header{
+                font-size: 0.355rem;
+                margin-top: -0.1rem;
+                margin-top: -0rem\0;
+                margin-bottom: 0.7rem;
+            }
+            .zl-con-header>li>a{
+                display: block;
+                font-size: 0.355rem;
+                margin-top: 0;
+                margin-bottom:0;
+                cursor: pointer;
+            }
+        }
     </style>
 </head>
 <body>
@@ -65,7 +122,11 @@
                     <div class="left2">
                         <div class="center-con" >
                             <div class="zl-con">
-                                <a href="javascript:;">我就喜欢花花世界</a>
+                                <ul class="zl-con-header">
+                                    <li><a href="javascript:;">个展</a></li>
+                                    <li>></li>
+                                    <li>我就喜欢花花世界</li>
+                                </ul>
                                 <p>“我就喜欢花花世界”黑一烊巡回展第四站将于2016年12月10日（周六）下午3时登陆西安青年美术馆。届时将举办嘉宾对话、开幕式、导赏团、校园讲座及工作坊等相关活动。届时MOYA携手想得美举办一场跨区域跨界限的艺术家嘉宾对话。</p>
                             </div>
                             <div class="zl-right">
@@ -143,7 +204,11 @@
                     <div class="left2">
                         <div class="center-con" >
                             <div class="zl-con">
-                                <a href="javascript:;">我就喜欢花花世界</a>
+                                <ul class="zl-con-header">
+                                    <li><a href="javascript:;">个展</a></li>
+                                    <li>></li>
+                                    <li>我就喜欢花花世界</li>
+                                </ul>
                                 <p>“我就喜欢花花世界”黑一烊巡回展第三站于2016年11月5日下午3时登陆明堂创意工作区 NU SPACE。届时举办了讲座、论坛、开幕式及策展人与艺术家在现场进行导览。</p>
                             </div>
                             <div class="zl-right">
@@ -221,7 +286,11 @@
                     <div class="left2">
                         <div class="center-con" >
                             <div class="zl-con">
-                                <a href="javascript:;">卖钱</a>
+                                <ul class="zl-con-header">
+                                    <li><a href="javascript:;">个展</a></li>
+                                    <li>></li>
+                                    <li>卖钱</li>
+                                </ul>
                                 <p>想得美于2015年10月10日下午三点, 在杭州ABC SPACE推出黑一烊个展“卖钱”，带来多个钱艺术系列装置，展览由SoLife家居和UTT家居、UTT食课的创始人吴永红担任策展人，展期持续至12月10日。</p>
                             </div>
                             <div class="zl-right">
@@ -278,7 +347,9 @@
             var imgarr=['url(./img/ydd11.png)','url(./img/ydd9.png)','url(./img/ydd8.png)'];
             $('.itembox').css({'height':h,'background':imgarr[num-1],'background-size':'cover'})
         }
-
+        $('.zl-con-header>li').click(function () {
+            location.href=document.referrer;
+        })
     })
 </script>
 </html>

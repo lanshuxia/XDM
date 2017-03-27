@@ -24,7 +24,7 @@ body,p,ul,ol,dl,dt,dd,li,h1,h2,h3,h4,h5,h6,input,td,tr,th,table{
     font-style: normal;
 }
 @font-face {
-    font-family: 'FE5';
+    font-family: 'FE4';
     src: url('../font/NOTOSANSHANS-THIN_1.eot') format('eot');/*IE9*/
     src: url('../font/NOTOSANSHANS-THIN_1.OTF') format('otf');
     src: url('../font/NOTOSANSHANS-THIN_1.eot') format('embedded-opentype');/*IE6-IE8*/

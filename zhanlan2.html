@@ -25,6 +25,62 @@
         .mui-active {
             display: block !important;
         }
+        .zl-con-header{
+            height:auto;
+            overflow: hidden;
+            font-size: 60px;
+            margin-top: -20px;
+            margin-bottom: 95px;
+        }
+        .zl-con-header>li>a{
+            display: block;
+            font-size: 60px;
+            margin-top: 0;
+            margin-bottom:0;
+            cursor: pointer;
+        }
+        .zl-con-header li{
+            float: left;
+        }
+        .zl-con-header li:nth-child(2){
+            line-height: 1.6;
+            font-weight: 700;
+        }
+        .zl-con-header li:nth-child(3){
+            opacity: 0.7;
+        }
+        @media screen and (max-width: 1440px) {
+            .zl-con-header{
+                height:auto;
+                overflow: hidden;
+                font-size: 36px;
+                margin-top: -10px;
+                margin-top: -0\0;
+                margin-bottom: 60px;
+                margin-bottom: 50px\0;
+            }
+            .zl-con-header>li>a{
+                display: block;
+                font-size: 36px;
+                margin-top: 0;
+                margin-bottom:0;
+                cursor: pointer;
+            }
+        }
+        @media screen and (max-width: 768px) {
+            .zl-con-header{
+                font-size: 0.355rem;
+                margin-top: -0.1rem;
+                margin-bottom: 0.7rem;
+            }
+            .zl-con-header>li>a{
+                display: block;
+                font-size: 0.355rem;
+                margin-top: 0;
+                margin-bottom:0;
+                cursor: pointer;
+            }
+        }
     </style>
 </head>
 <body>
@@ -65,7 +121,11 @@
                     <div class="left2">
                         <div class="center-con" >
                             <div class="zl-con">
-                                <a href="javascript:;">置换·界内界外展览</a>
+                                <ul class="zl-con-header">
+                                    <li><a href="javascript:;">群展</a></li>
+                                    <li>></li>
+                                    <li>置换·界内界外展览</li>
+                                </ul>
                                 <p>10月25日下午，2014深圳大鹏文化周开幕式在满京华艺象创意园举行。开幕式上，满京华美术馆落成后“处女展”——“置换·界内界外2014当代艺术邀请展”同时开展。展览以深圳本土艺术人士作品为主，同时邀请香港、汕头的36位艺术家（组）参展，作品分绘画、雕塑、装置、图片、影像、设计六大类。</p>
                             </div>
                             <div class="zl-right">
@@ -75,7 +135,7 @@
                                 </div>
                                 <div class="zldd">
                                     <p>展览地点</p>
-                <span>SOHO世纪广场，上海，中国</span>
+                                    <span>SOHO世纪广场，上海，中国</span>
                                 </div>
                                 <div class="zlgg">
                                     <p>大奖公告链接：</p>
@@ -143,7 +203,11 @@
                     <div class="left2">
                         <div class="center-con" >
                             <div class="zl-con">
-                                <a href="javascript:;">成都设计双年展</a>
+                                <ul class="zl-con-header">
+                                    <li><a href="javascript:;">群展</a></li>
+                                    <li>></li>
+                                    <li>成都设计双年展</li>
+                                </ul>
                                 <p>2011年9月29日下午，2011成都双年展是成都本土有史以来规模最大的当代艺术盛会，通过艺术、设计、建筑三大主题展，首次全面展现了成都当代艺术新生态力量。此次双年展体现了文化艺术相结合、相互交流的特点，也展现了成都文化的独特性，体现了成都的个性，在展览开幕式上，策展人吕澎概述了此次展览的主题，提出“溪山清远”的艺术思想，从设计与建筑，艺术等三个方面体现成都的田园城市理想。</p>
                             </div>
                             <div class="zl-right">
@@ -221,7 +285,11 @@
                     <div class="left2">
                         <div class="center-con" >
                             <div class="zl-con">
-                                <a href="javascript:;">蝴蝶效应——两岸四地艺术交流计划</a>
+                                <ul class="zl-con-header">
+                                    <li><a href="javascript:;">群展</a></li>
+                                    <li>></li>
+                                    <li>两岸四地艺术交流计划</li>
+                                </ul>
                                 <p>作为2009年的“出境——广深港澳当代艺术展”的续篇，何香凝美术馆将于2010年3月27日至5月16日推出“蝴蝶效应——两岸四地艺术交流计划”展览。此次交流计划以深圳为地理依托，集合了来自大陆和港、澳、台两岸四地的17位艺术家进行交流、创作，艺术家和策展人在展览主题框架下进行不断地研讨、沟通，并将交流过程中的个人思考以艺术的方式呈现出来，希望借以提示出两岸四地文化艺术的特殊性和共同的文化认同。<br/>
                                     参加本次交流计划的艺术家共17位，包括大陆的黑一烊、黄扬、计文于、蒋鹏奕、马秋莎、邢丹文、杨心广、朱卫兵；香港的林岚、周俊辉；澳门的郭恬熙、José Drummond（澳门籍）、朱焯信；台湾的陈敬元、吴达坤、吴季璁、姚瑞中。展览将展出装置、影像、行为艺术等多媒介作品共17件。</p>
                             </div>
@@ -279,7 +347,9 @@
             var imgarr=['url(./img/ydd1.png)','url(./img/ydd12.png)','url(./img/ydd6.png)'];
             $('.itembox').css({'height':h,'background':imgarr[num-1],'background-size':'cover'})
         }
-
+        $('.zl-con-header>li').click(function () {
+            location.href=document.referrer;
+        })
     })
 </script>
 </html>
