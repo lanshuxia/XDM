@@ -184,7 +184,7 @@ video {
     /*下拉菜单-开始*/
     .drop-con{
         width:3.7rem;
-        height:0.5rem;
+        height:0.55rem;
         display: block;
     }
     .hhsj-jtxx{
@@ -204,9 +204,9 @@ video {
         text-decoration: none;
         width:3.3rem;
         float: left;
-        height:0.6rem;
+        height:0.55rem;
         text-align:left;
-        line-height:0.6rem;
+        line-height:0.55rem;
         color:#fff;
         font-size:0.4rem;
         font-family: FE1, sans-serif;
@@ -228,7 +228,7 @@ video {
     .hhsj-jtxy{
         width:0.15rem;
         float: left;
-        margin-top:0.23rem;
+        margin-top:0.2rem;
         margin-top:0.1rem\0;
     }
     .active.hhsj-jtxy{
