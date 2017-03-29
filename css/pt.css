@@ -585,8 +585,11 @@ body,html{
 }
 @media screen and (max-width: 768px){
     /*花花世界-开始*/
-    .hhsj-right-bottom p {
+    #main,.ptzh-con{
         margin-top:0;
+    }
+    .hhsj-right-bottom p {
+        margin-top:-0.06rem;
     }
     #hhsj-left-btn>span{
         border-top:0.08rem solid #000;
