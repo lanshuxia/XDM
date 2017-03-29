@@ -66,13 +66,13 @@ HTML {
     background: #8d0947;
 }
 .lx-center-top,.lx-center-bottom{
-    margin-top:-15px;
+    margin-top:-10px;
     margin-top:0\0;
     font-size: 46px;
     text-align: left;
 }
 .lx-center-top{
-    margin-bottom:155px;
+    margin-bottom:145px;
 }
 .lx-loft{
     width:55%;
@@ -126,7 +126,8 @@ HTML {
     .xm-list>li>a{
         font-size:64px;
         margin-right: 50px;
-        margin-bottom:20px;
+        margin-bottom:23px;
+        margin-bottom:12px\0;
     }
     #xm-left-btn>span{
         border-top:5px solid #8d0947;
@@ -208,11 +209,11 @@ HTML {
     .xm-list>li>a{
         height:100%;
         font-size:0.56rem;
-        margin-bottom:0.4rem;
+        margin-bottom:0.44rem;
         margin-right:0.5rem;
     }
     #xm-list-hot>a:first-child{
-        margin-top:-0.1rem;
+        margin-top:-0.18rem;
         margin-top:0\0;
     }
     #xm-list-hot>a{
