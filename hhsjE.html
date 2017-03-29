@@ -54,35 +54,37 @@
                 <ul class="hhsj-header">
                     <li class="hot"><a href="hhsj.html">I Prefer This Colorful World</a></li>
                     <li><a href="pt.html">Collage</a></li>
-                    <li><a href="video.html">Video </a></li>
+                    <li><a href="video.html">Video</a></li>
                     <li><a href="jilupian.html">Documentary</a></li>
                 </ul>
                 <div class="hhsj-img">
                     <a href="index.html"><img src="img/logo.png" alt=""></a>
                 </div>
+                <!--下拉菜单-->
                 <ul class="drop-con">
                     <li class="drop-down">
-                        <a href="#">我就喜欢花花世界</a>
-                        <img src="img/down.png" alt="">
+                        <a href="#">Colorful World</a>
+                        <img src="img/down.png" alt="" class="hhsj-jtxx">
                         <ul class="drop-down-content">
                             <li>
-                                <a href="#">拼贴装置</a>
-                                <img src="img/zjt.png" alt="">
+                                <a href="#">Collage</a>
+                                <img src="img/zjt.png" alt="" class="hhsj-jtxy">
                                 <ul class="hhsj-drop-down">
-                                    <li><a href="pt.html">150X150mm</a></li>
+                                    <li class="hhsjdd-hot"><a href="pt.html">150X150mm</a></li>
                                     <li><a href="#">81X82mm</a></li>
                                     <li><a href="#">58.5X59.5mm</a></li>
                                 </ul>
                             </li>
                         </ul>
                         <ul class="drop-down-content">
-                            <li><a href="video.html">影像装置</a></li>
+                            <li><a href="video.html">Video</a></li>
                         </ul>
                         <ul class="drop-down-content">
-                            <li><a href="jilupian.html">纪录片</a></li>
+                            <li><a href="jilupian.html">Documentary</a></li>
                         </ul>
                     </li>
                 </ul>
+                <!--下拉菜单-->
             </div>
             <!--右侧-上-结束-->
             <!--右侧-下-开始-->
@@ -114,6 +116,16 @@
 
 </body>
 <script>
+    /*下拉菜单*/
+    $(".drop-down>a").click(function () {
+        $(".drop-down-content").toggle()
+        $(".hhsj-jtxx").toggleClass("active")
+    })
+    $(".drop-down-content>li>a").click(function () {
+        $(".hhsj-drop-down").toggle()
+        $(".hhsj-jtxy").toggleClass("active")
+    })
+    /*下拉菜单*/
     /*字体大小*/
     var windowW = $(window).width();
     var flag = true;

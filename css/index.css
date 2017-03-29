@@ -38,7 +38,7 @@ html,body{
     z-index: 999;
 }
 .left-btn>span{
-    border-top:8px solid #f9600a;
+    border-top:8px solid #e95f17;
 }
 .active .left-btn>span{
     border-top:8px solid #fff;
@@ -111,7 +111,7 @@ html,body{
 }
 .left-switch>a{
     text-decoration: none;
-    color:#f9600a;
+    color:#e95f17;
     opacity: 0.5;
     line-height: 1.725;
 }
@@ -130,7 +130,7 @@ html,body{
     bottom:40px;
 }
 .icon-con>a>li{
-    color:#f9600a;
+    color:#e95f17;
     width:100%;
     margin-bottom:34px;
 }
@@ -142,7 +142,7 @@ html,body{
     height:auto;
     position:absolute;
     bottom:0;
-    color:#f9600a;
+    color:#e95f17;
     text-align: center;
     transition: all .2s;
 }
@@ -180,7 +180,7 @@ html,body{
     overflow: hidden;
     text-justify:inter-ideograph;
     font-family:FE1,sans-serif;
-    color:#f9600a;
+    color:#e95f17;
 }
 #left2 p{
     cursor: pointer;
@@ -251,7 +251,7 @@ html,body{
     color: #fff;
     opacity: 0.5;
     font-size: 90px;
-    line-height: 1.725;
+    margin-bottom:25px;
     font-family: FE1, sans-serif;
 }
 /*艺术家-开始*/
@@ -298,7 +298,7 @@ html,body{
         width:35px;
     }
     .left-btn>span{
-        border-top:5px solid #f9600a;
+        border-top:5px solid #e95f17;
     }
     .active .left-btn>span{
         border-top:5px solid #fff;
@@ -376,7 +376,7 @@ html,body{
     }
     .nav>a{
         font-size:64px;
-        line-height:1.6;
+        margin-bottom:10px;
     }
     /*遮罩-结束*/
     /*艺术家开始*/
@@ -535,12 +535,12 @@ html,body{
         height:100%;
     }
     .nav>a:first-child{
-        margin-top:-0.4rem;
+        margin-top:-0.3rem;
         margin-top:-0.2rem\0;
     }
     .nav>a{
         font-size:0.8rem;
-        line-height:2;
+        line-height:1.7;
     }
     /*遮罩-结束*/
     /*art-开始*/
