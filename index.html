@@ -80,12 +80,12 @@
 			$('.left2').click(function(){
 				if(flag){
 					$(".left2").css('font-size','50px');
-					$("#left2 p").css("margin-top","-25px");
-					$("#left2 p").css("margin-top","-10px\0");
+					$("#left2 p").css({"margin-top":"-25px","height":"100%",'line-height':"2"});
+					$("#left2 p").css("margin-top","-12px\0");
 				} else {
 					$(".left2").css('font-size','45px')
-					$("#left2 p").css("margin-top","-25px")
-					$("#left2 p").css("margin-top","-10px\0")
+					$("#left2 p").css({"margin-top":"-25px","height":"100%",'line-height':"2"})
+					$("#left2 p").css("margin-top","-12px\0")
 				}
 				flag = !flag;
 			})
@@ -93,10 +93,10 @@
 			$('.left2').click(function(){
 				if(flag){
 					$(".left2").css('font-size','30px')
-					$("#left2 p").css("margin-top","-13px")
+					$("#left2 p").css("margin-top","-0.25rem")
 				} else {
 					$(".left2").css('font-size','20px')
-					$("#left2 p").css("margin-top","-5px")
+					$("#left2 p").css("margin-top","-0.18rem")
 				}
 				flag = !flag;
 			})

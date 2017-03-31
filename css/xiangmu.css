@@ -168,9 +168,9 @@ HTML {
 }
 @media screen and (max-width: 1024px){
     .lx-center-top{
-        margin-top:0;
         font-size:24px;
         margin-bottom:130px;
+        margin-top:-5px;
     }
     .lx-center-bottom{
         font-size:24px;

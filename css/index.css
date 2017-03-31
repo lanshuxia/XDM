@@ -164,7 +164,7 @@ html,body{
 .zhong{
     height: 100%;
     margin-left: 110px;
-    margin-right:510px;
+    margin-right:26%;
 }
 .left1{
     display: none;
@@ -174,7 +174,7 @@ html,body{
 }
 .left2{
     width:100%;
-    height: 105%;
+    height: 107%;
     font-size:120px;
     text-align: justify;
     overflow: hidden;
@@ -183,6 +183,7 @@ html,body{
     color:#e95f17;
 }
 #left2 p{
+    height:2020px;
     cursor: pointer;
     margin-top:-50px;
     margin-top:-20px\0;
@@ -276,7 +277,7 @@ html,body{
 }
 .art-center-box-top{
     width:100%;
-    height:auto;
+    height:6780px;
     cursor: pointer;
     margin-top:-55px;
     margin-top:-25px\0;
@@ -331,14 +332,15 @@ html,body{
     .zhong{
         height: 100%;
         margin-left: 75px;
-        margin-right:385px;
+        margin-right:28%;
     }
     .left2{
         width: 100%;
-        height: 108%;
+        height: 107%;
         font-size:60px;
     }
     #left2 p{
+        height:100%;
         line-height:2;
         margin-top:-34px;
         margin-top:-15px\0;
@@ -382,7 +384,7 @@ html,body{
     /*艺术家开始*/
     .art-center-box-top{
         width:100%;
-        height:auto;
+        height:2720px;
         margin-top:-34px;
         margin-top:-15px\0;
         color:#e59f15;
@@ -401,21 +403,36 @@ html,body{
     .zhong{
         height: 100%;
         margin-left: 75px;
-        margin-right:310px;
+        margin-right:25%;
         margin-right:390px\0;
+    }
+    #left2 p{
+        height:780px;
+    }
+    .art-center-box-top{
+        height:450%;
     }
     /*中间-结束*/
 }
 @media screen and (max-width: 1280px) {
     .zhong{
-        margin-right:433px;
+        margin-right:36%;
+    }
+    .art-center-box-top{
+        height:auto;
     }
 }
 @media screen and (max-width: 1024px) {
     .zhong{
         height: 100%;
         margin-left: 66px;
-        margin-right:363px;
+        margin-right:38%;
+    }
+    #left2 p{
+        height:1370px;
+    }
+    .art-center-box-top{
+        height:4850px;
     }
 }
 @media screen and (max-width: 768px){
@@ -513,6 +530,7 @@ html,body{
         position:relative;
     }
     #left2 p{
+        height:auto;
         margin-top:-0.32rem;
         margin-top:-0.12rem\0;
         line-height: 1.85;
@@ -549,6 +567,7 @@ html,body{
         background-size: cover;
     }
     .art-center-box-top{
+        height:auto;
         margin-top:-0.35rem;
         margin-top:-0.12rem\0;
         line-height: 1.85;
